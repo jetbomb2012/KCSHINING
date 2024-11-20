@@ -3,10 +3,7 @@ layout: post
 title:  "光仟診所劉光益醫師布落客開張"
 date:   2024-05-20
 description: 靜脈曲張/整形美容/點滴/高壓氧/血液淨化
-診所住址/
-桃園市中壢區新生路117號4樓
-診所電話/
-03-422-7171
+診所住址/桃園市中壢區新生路117號4樓/診所電話/03-422-7171
 ---
 
 <p class="intro"><span class="dropcap">C</span>urabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Vestibulum id ligula porta felis euismod semper. Donec sed odio dui. Aenean lacinia bibendum nulla sed consectetur.</p>

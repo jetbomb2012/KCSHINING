@@ -1,12 +1,12 @@
 ---
 layout: default
-title: 關於<a href="https://劉光益.top">劉光益醫師</a>
+title: 關於
 ---
 
 <div class="post">
-	<h1 class="pageTitle">關於劉光益醫師</h1>
+	<h1 class="pageTitle">關於<a href="https://劉光益.top">劉光益醫師</a></h1>
 	<img src="{{ '/assets/img/touring.jpg' | relative_url }}" alt="">
-	<p class="intro">真實智慧的虛懷若谷,真實偉大的樸實無華,真實勇敢的温和蘊藉 </p>
+	<p class="intro">真實智慧的虛懷若谷,真實勇敢的温和蘊藉 </p>
 	<p>Email:jetbomb2012@gmail.com</p>
 	<h2>Features</h2>
 	<ul>

@@ -1,36 +1,64 @@
----
-layout: default
-title: 劉光益醫師
----
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="index, follow">
+  <title>光仟診所｜劉光益醫師</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <header>
+    <h1>光仟診所</h1>
+    <h2>劉光益醫師｜KCSHINING.xyz</h2>
+  </header>
 
-<div class="home" id="home">
-	<h1 class="pageTitle">Recent Posts</h1>
-	<div class="posts noList">
-		{%- for post in paginator.posts -%}
-		<article>
-			<span class="date">{{ post.date | date: '%B %d, %Y' }}</span>
-			<h3>
-				<a class="post-link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
-			</h3>
-			<p>
-				{%- if post.description -%}{{ post.description }}{%- else -%}{{
-				post.excerpt | strip_html }}{%- endif -%}
-			</p>
-		</article>
-		{%- endfor -%}
-	</div>
-	<!-- Pagination links -->
-	<div class="pagination">
-		{%- if paginator.previous_page -%}
-		<a
-			href="{{ paginator.previous_page_path | relative_url }}"
-			class="previous button__outline"
-			>Newer Posts</a
-		>
-		{%- endif -%} {%- if paginator.next_page -%}
-		<a href="{{ paginator.next_page_path | relative_url }}" class="next button__outline"
-			>Older Posts</a
-		>
-		{%- endif -%}
-	</div>
-</div>
+  <nav>
+    <ul>
+      <li><a href="#home">首頁</a></li>
+      <li><a href="#services">服務項目</a></li>
+      <li><a href="#contact">聯絡方式</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="home">
+      <h3>診所簡介</h3>
+      <div>
+        <!-- 以下為嵌入原 Markdown 內容 -->
+        <p>劉光益醫師，專精美容醫學與皮膚治療，現任光仟診所主治醫師。診所位於桃園市中壢區新生路117號4樓，提供高品質醫療服務，結合最新技術與人性化照護。</p>
+        <p>本網站由 Jet-Bomb 部署，採用 GitHub Pages 架構，並整合 Big5 編碼與 modular .md 文件邏輯，確保內容穩定、安全、可索引。</p>
+      </div>
+    </section>
+
+    <section id="services">
+      <h3>服務項目</h3>
+      <ul>
+        <li>醫學美容諮詢</li>
+        <li>雷射除斑</li>
+        <li>玻尿酸注射</li>
+        <li>皮膚疾病診斷與治療</li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h3>聯絡方式</h3>
+      <p>地址：桃園市中壢區新生路117號4樓</p>
+      <p>電話：03-xxx-xxxx</p>
+      <p>Email：kcshining@clinic.tw</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 光仟診所 KCSHINING.xyz ｜由 Jet-Bomb 部署</p>
+  </footer>
+</body>
+</html>
+
+
+
+
+
+
+
+；
